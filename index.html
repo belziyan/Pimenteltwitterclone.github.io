@@ -1,121 +1,370 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PIMENTEL PORTFOLIO</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-<div class="container">
-    <nav>
-        <img src="logo.jpg" class="logo">
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact Me</a></li>
-        </ul>
-    </nav>
-    <div class="textbox">
-        <p>I'm</p>
-        <h1>BELLE PIMENTEL</h1>
-        <a href="#contact"><button class="btn">Contact Me</button></a>
-    </div>
-</div>
-<section id="about">
-    <h1 class="headings">ABOUT ME</h1>
-    <div class="aboutContent">
-        <div id="pic">
-            <img src="17.jpg" alt="">
+<html>
+  <head>
+    <title>Twitter ni beyl</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/fa2362c4f2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://kit.fontawesome.com/fa2362c4f2.css" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="layout">
+      <div class="layout__left-sidebar">
+        <img src="./svg/Twitter-logo.svg" class="brand" />
+        <div class="sidebar-menu">
+          <div class="sidebar-menu__item sidebar-menu__item--active">
+            <img src="./svg/home.svg" class="sidebar-menu__item-icon" />
+            Home
+          </div>
+          <div class="sidebar-menu__item">
+            <img src="./svg/explore.svg" class="sidebar-menu__item-icon" />
+            Explore
+          </div>
+
+          <div class="sidebar-menu__item">
+            <img
+              src="./svg/notifications.svg"
+              class="sidebar-menu__item-icon"
+            />
+            Notifications
+          </div>
+
+          <div class="sidebar-menu__item">
+            <img src="./svg/messages.svg" class="sidebar-menu__item-icon" />
+            Messages
+          </div>
+
+          <div class="sidebar-menu__item">
+            <img src="./svg/profile.svg" class="sidebar-menu__item-icon" />
+            Profile
+          </div>
+
+          <div class="sidebar-menu__item">
+            <img src="./svg/more.svg" class="sidebar-menu__item-icon" />
+            More
+          </div>
+          <button type="button" class="tweetbtn">
+            Tweet
+          </button>
         </div>
-        <div class="textContent">
-            <div id="intro">
-                <h2>BELLE PIMENTEL</h2>
-                <p>Hello everyone, I am Belle Xianne Marie Telmoso Pimentel. ,<br>
-                    I am 20 years old from 
-                    Kauswagan, Cagayan de Oro City, Misamis Oriental. 
-                </p>
+      </div>
+
+
+
+
+      <div class="layoutmain">
+       <div class="home"> Home</div>
+       <div class="tweetBox">
+        <form>
+          <div class="tweetboxinput">
+            <img
+              src="images/image1.jpg"
+              alt=""
+            />
+            <input type="text" placeholder="What's happening?" />
+          </div>
+          <button class="tweetButton">Tweet</button>
+            <div class="icons">
+              <span><a href=""><i class="fa-regular fa-image"></i></a></span>
+              <span><a href=""><i class="fa-solid fa-square-poll-horizontal"></i></a></span>
+              <span><a href=""><i class="fa-regular fa-face-smile"></i></a></span>
+              <span><a href=""><i class="fa-regular fa-calendar"></i></a></span>
+              <span><a href=""><i class="fa-solid fa-location-dot"></i></a></span>
             </div>
-         <div class="likes">
-            <h2>Likes</h2>
-            <ul>
-                
-                <li>
-                    <p>
-                       Likes to play Mobile Legends. 
-                    </p>
-                </li>
-                <li>
-                    <p>
-                            Hangout with friends
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        My crush
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        You hehe
-                    </p>
-            
-                </li>
-            </ul>
-        </div>
-         </div>   
-         <div class="contentGallery">
-            <img src="14.jpg" alt="pic">
-            <img src="13.jpg" alt="pic">
-            <img src="21.jpg" alt="pic">
-        </div>
-    </div>
-   
+          <div>
+          </div>
+        </form>
+      </div>
+      <hr>
 
-</section>
 
-<section id="portfolio">
-    <h1 class="headings">PORTFOLIO</h1>
-    <div class="gallery">
-    <img src="3.jpg" alt="">
-    <img src="7.jpg" alt="">
-    <img src="8.jpg" alt="">
-    <img src="18.jpg" alt="">
-    <img src="19.jpg" alt="">
-    <img src="20.jpg" alt="">
-    
-    </div>
-    
-</section>
-
-<section>
-    <div id="contact">
-            <div class="row">
-                <div class="contact-left">
-                    <h1 class="sub-title">Contact Me</h1>
-                    <p><i class="fa-solid fa-envelope"></i>pimentelbellexiannemarie@gmail.com</p>
-                    <p><i class="fa-solid fa-phone"></i>09759423271</p>
-                    <div class="social-icons">
-                        <a href=""><i class="fa-brands fa-facebook"></i></a>
-                        <a href=""><i class="fa-brands fa-instagram"></i></a>
-                        <a href=""><i class="fa-brands fa-tiktok"></i></a>
-                    </div>
-                </div>
-                <div class="contact-right">
-                    <form>
-                        <input type="text" name="Name" placeholder="Your Name">
-                        <input type="email" name="email" placeholder="Your Email">
-                        <textarea name="Message" rows="6" placeholder="What's your message"></textarea>
-                        <button type="submit" class="btn btn2">Submit</button>
-                    </form>
-                </div>
+        <div class="tweet">
+          <img class="tweet__author-logo" src="./images/image3.jpg" />
+          <div class="tweet__main">
+            <div class="tweet__header">
+              <div class="tweet__author-name">
+                hannibutter
+              </div>
+              <div class="tweet__author-slug">
+                @_hannieyuhh
+              </div>
+              <div class="tweet__publish-time">
+                10m
+              </div>
             </div>
+            <div class="tweet__content">
+              OMAH OMAH GHAAAAAAAAD
+            </div>
+            <div class="reaction">
+              <div class="comment"><i class="fa-regular fa-comment"></i></div>
+              <div class="retweet"><i class="fa-solid fa-retweet"></i></div>
+              <div class="like"><i class="fa-regular fa-heart"></i></div>
+              <div class="view"><i class="fa-solid fa-chart-simple"></i></div>
+              <div class="share"><i class="fa-solid fa-arrow-up-from-bracket"></i></div>
+              
+            </div>
+          </div>
         </div>
+        
+        <div class="tweet">
+          <img class="tweet__author-logo" src="./images/image2.jpg" />
+          <div class="tweet__main">
+            <div class="tweet__header">
+              <div class="tweet__author-name">
+                RubyJane
+              </div>
+              <div class="tweet__author-slug">
+                @jenniekim
+              </div>
+              <div class="tweet__publish-time">
+                10d
+              </div>
+            </div>
+            <div class="tweet__content">
+             crush kaayo tika like as in super!
+            </div>
+            <div class="reaction">
+              <div class="comment"><i class="fa-regular fa-comment"></i></div>
+              <div class="retweet"><i class="fa-solid fa-retweet"></i></div>
+              <div class="like"><i class="fa-regular fa-heart"></i></div>
+              <div class="view"><i class="fa-solid fa-chart-simple"></i></div>
+              <div class="share"><i class="fa-solid fa-arrow-up-from-bracket"></i></div>
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="tweet">
+          <img class="tweet__author-logo" src="./images/image4.jpg" />
+          <div class="tweet__main">
+            <div class="tweet__header">
+              <div class="tweet__author-name">
+                MAGANDANG BINIBINI
+              </div>
+              <div class="tweet__author-slug">
+                @_itzhyein
+              </div>
+              <div class="tweet__publish-time">
+                15h
+              </div>
+            </div>
+            <div class="tweet__content">
+              balik kana:(
+              <img class="tweet__image" src="/images/image6.jpg" />
+            </div>
+            <div class="reaction">
+              <div class="comment"><i class="fa-regular fa-comment"></i></div>
+              <div class="retweet"><i class="fa-solid fa-retweet"></i></div>
+              <div class="like"><i class="fa-regular fa-heart"></i></div>
+              <div class="view"><i class="fa-solid fa-chart-simple"></i></div>
+              <div class="share"><i class="fa-solid fa-arrow-up-from-bracket"></i></div>
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="tweet">
+          <img class="tweet__author-logo" src="./images/image7.jpg" />
+          <div class="tweet__main">
+            <div class="tweet__header">
+              <div class="tweet__author-name">
+                prettysaurmuch
+              </div>
+              <div class="tweet__author-slug">
+                @imnayeon
+              </div>
+              <div class="tweet__publish-time">
+                1d
+              </div>
+            </div>
+            <div class="tweet__content">
+              haha...
+              <img class="tweet__image" src="/images/image11.jpg" />
+            </div>
+            <div class="reaction">
+              <div class="comment"><i class="fa-regular fa-comment"></i></div>
+              <div class="retweet"><i class="fa-solid fa-retweet"></i></div>
+              <div class="like"><i class="fa-regular fa-heart"></i></div>
+              <div class="view"><i class="fa-solid fa-chart-simple"></i></div>
+              <div class="share"><i class="fa-solid fa-arrow-up-from-bracket"></i></div>
+              
+            </div>
+          </div>
+        </div>
+       
+
+        <div class="tweet">
+          <img class="tweet__author-logo" src="./images/image8.jpg" />
+          <div class="tweet__main">
+            <div class="tweet__header">
+              <div class="tweet__author-name">
+                ginanonlang
+              </div>
+              <div class="tweet__author-slug">
+                @yejiiiis
+              </div>
+              <div class="tweet__publish-time">
+                19m
+              </div>
+            </div>
+            <div class="tweet__content">
+              anue b aq sau? haha 
+              #OksLangaq
+            </div>
+            <div class="reaction">
+              <div class="comment"><i class="fa-regular fa-comment"></i></div>
+              <div class="retweet"><i class="fa-solid fa-retweet"></i></div>
+              <div class="like"><i class="fa-regular fa-heart"></i></div>
+              <div class="view"><i class="fa-solid fa-chart-simple"></i></div>
+              <div class="share"><i class="fa-solid fa-arrow-up-from-bracket"></i></div>
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="tweet">
+          <img class="tweet__author-logo" src="./images/image1.jpg" />
+          <div class="tweet__main">
+            <div class="tweet__header">
+              <div class="tweet__author-name">
+                beyl
+              </div>
+              <div class="tweet__author-slug">
+                @beylshanmarie
+              </div>
+              <div class="tweet__publish-time">
+                3m
+              </div>
+            </div>
+            <div class="tweet__content">
+                tama na sa activities flessss
+            <img class="tweet__image" src="/images/image10.jpg" />
+            </div>
+            <div class="reaction">
+              <div class="comment"><i class="fa-regular fa-comment"></i></div>
+              <div class="retweet"><i class="fa-solid fa-retweet"></i></div>
+              <div class="like"><i class="fa-regular fa-heart"></i></div>
+              <div class="view"><i class="fa-solid fa-chart-simple"></i></div>
+              <div class="share"><i class="fa-solid fa-arrow-up-from-bracket"></i></div>  
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+
+      <div class="layout__right-sidebar-container">
+        <div class="layout__right-sidebar">
+          <div class="search">
+            <input type="search" placeholder="Search Twitter">
+            <span><i class="fa-solid fa-magnifying-glass"></i></span>
+          </div>
+          <div class="trends-for-you">
+            <div class="trends-for-you__block">
+              <div class="trends-for-you__heading">
+                Trends for you
+              </div>
+            </div>
+            <div class="trends-for-you__block">
+              <div class="trends-for-you__meta-information"> 
+                Trending in Philippines
+              </div>
+              <div class="trends-for-you__trend-name">
+                #AkoNalangKasi
+              </div>
+              <div class="trends-for-you__meta-information">
+                155k Tweets
+              </div>
+            </div>
+            <div class="trends-for-you__block">
+              <div class="trends-for-you__meta-information">
+                Trending in Philippines
+              </div>
+              <div class="trends-for-you__trend-name">
+                #bellesogwapa
+              </div>
+              <div class="trends-for-you__meta-information">
+                1.1m Tweets
+              </div>
+            </div>
+            <div class="trends-for-you__block">
+              <div class="trends-for-you__meta-information">
+                Trending - Trending
+              </div>
+              <div class="trends-for-you__trend-name">
+                #ILikeYouSoMARCH
+              </div>
+              <div class="trends-for-you__meta-information">
+                1.7m Tweets
+              </div>
+            </div>
+          </div>
+          <div class="who-to-follow">
+            <div class="who-to-follow__block">
+              <div class="who-to-follow__heading">
+                Who to follow
+              </div>
+            </div>
+            <div class="who-to-follow__block">
+              <img
+                class="who-to-follow__author-logo"
+                src="./images/image13.jpg"
+              />
+              <div class="who-to-follow__content">
+                <div>
+                  <div class="who-to-follow__author-name">
+                    heyyzel
+                  </div>
+                  <div class="who-to-follow__author-slug">
+                    @hazelsocutie
+                  </div>
+                </div>
+                <div class="who-to-follow__button">
+                  Follow
+                </div>
+              </div>
+            </div>
+            <div class="who-to-follow__block">
+              <img
+                class="who-to-follow__author-logo"
+                src="./images/image12.jpg"
+              />
+              <div class="who-to-follow__content">
+                <div>
+                  <div class="who-to-follow__author-name">
+                    wynzl
+                  </div>
+                  <div class="who-to-follow__author-slug">
+                    @wynwyn
+                  </div>
+                </div>
+                <div class="who-to-follow__button">
+                  Follow
+                </div>
+              </div>
+            </div>
+
+            <div class="who-to-follow__block">
+              <img
+                class="who-to-follow__author-logo"
+                src="./images/image14.jpg"
+              />
+              <div class="who-to-follow__content">
+                <div>
+                  <div class="who-to-follow__author-name">
+                 peytuss
+                  </div>
+                  <div class="who-to-follow__author-slug">
+                    @peytisme
+                  </div>
+                </div>
+                <div class="who-to-follow__button">
+                  Follow
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-</section>
-
-
-</body>
+  </body>
 </html>
